@@ -7,7 +7,7 @@ function draw() {
   stroke("blue");
   fill("green");
   
-  if(mouseIsPressed) {
+  if(mouseIsPressed){
   rect(mouseX, mouseY, 20, 20);
   }
 }
